@@ -1,0 +1,110 @@
+body {
+
+}
+
+.left-p {
+	height: 100%;
+	width:  400px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #E1E1E3;
+	padding-top: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.right-p {
+	height: 100%;
+	width:  auto;
+	top: 0;
+	right: 0;
+	margin-left: 420px;
+	padding-top: 20px;
+
+
+}
+
+li {
+	list-style-type: none;
+}
+
+.img-perfil {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	border-radius: 50%;
+	border: 5px solid white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#Photo-p {
+	margin: 0px 120px 0px 100px;
+}
+
+h2 {
+	margin-left: 25px;
+	font-family: 'Staatliches', cursive;
+}
+h1{
+	font-size: 4em;
+	font-family: 'Staatliches', cursive;
+}
+h3{
+	margin-left: 25px;
+	font-family: 'Staatliches', cursive;
+}
+h4 {
+	font-family: 'Staatliches', cursive;
+}
+
+.ul-p {
+	font-family: 'Staatliches', cursive;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+hr { 
+  display: block;
+  margin-top: -0.9em;
+  margin-bottom: -0.9em;
+  margin-left: 1.5em;
+  margin-right: 2em;
+  border-style: inset;
+  border-width: 0.5px;
+  border-color: black;
+
+} 
+
+p {
+	font-family: 'Kite One', sans-serif;
+	display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#table-exp {
+	margin-left: 65px;
+	font-family: 'Kite One', sans-serif;
+}
+#table-hab {
+	margin-left: 15px;
+	font-family: 'Kite One', sans-serif;
+}
+#progressbar {
+  background-color: #E1E1E3;
+  border-radius: 13px;
+  width: 600px;
+  padding: 3px;
+  margin-left: 30px;
+}
+
+#progressbar>div {
+  background-color: #595959	;
+  height: 20px;
+  border-radius: 10px;
+}
+
+
